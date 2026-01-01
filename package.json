@@ -1,0 +1,31 @@
+{
+  "name": "pegasus-framework",
+  "version": "1.0.0",
+  "description": "Framework front-end com Angular para gerar projetos mobile de forma nativa",
+  "main": "index.js",
+  "bin": {
+    "pegasus": "./bin/pegasus.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andre-Rodrigues-Dev-Web/pegasus-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andre-Rodrigues-Dev-Web/pegasus-framework/issues"
+  },
+  "homepage": "https://github.com/Andre-Rodrigues-Dev-Web/pegasus-framework#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.2",
+    "inquirer": "^8.2.5",
+    "ip": "^2.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "shelljs": "^0.10.0"
+  }
+}

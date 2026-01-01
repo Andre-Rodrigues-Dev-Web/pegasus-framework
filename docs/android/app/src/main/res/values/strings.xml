@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PegasusDocs</string>
+    <string name="title_activity_main">PegasusDocs</string>
+    <string name="package_name">com.pegasus.docs</string>
+    <string name="custom_url_scheme">com.pegasus.docs</string>
+</resources>
