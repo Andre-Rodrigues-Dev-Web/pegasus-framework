@@ -39,10 +39,10 @@ program
   });
 
 program
-  .command('start')
+  .command('start [platform]')
   .description('Interactive runner for Web, Desktop (Electron), and Mobile (QR Code)')
-  .action(() => {
-    require('../lib/start')();
+  .action((platform) => {
+    require('../lib/start')(platform);
   });
 
 program.parse(process.argv);
