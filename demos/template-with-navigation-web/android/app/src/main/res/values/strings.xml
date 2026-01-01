@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PegasusWeb</string>
+    <string name="title_activity_main">PegasusWeb</string>
+    <string name="package_name">com.pegasus.webnav</string>
+    <string name="custom_url_scheme">com.pegasus.webnav</string>
+</resources>

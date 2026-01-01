@@ -19,6 +19,7 @@ program
   .description('Create a new Pegasus mobile project')
   .option('-i, --app-id <id>', 'App ID (e.g. com.example.app)')
   .option('-a, --app-name <appName>', 'App Name')
+  .option('-t, --test-framework <framework>', 'Test Framework (jasmine|jest|none)')
   .action((name, options) => {
     create(name, options);
   });
